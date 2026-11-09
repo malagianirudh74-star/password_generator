@@ -1,6 +1,6 @@
 #import the random module
 import random
-#impor
+#import string module 
 import string 
 password = ""
 length = int(input("Enter the Password length: "))
