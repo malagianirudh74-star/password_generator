@@ -4,6 +4,7 @@ import random
 #import string module 
 import string 
 
+#create an empty string which will store the generated password 
 password = ""
 length = int(input("Enter the Password length: "))
 if length < 3:
