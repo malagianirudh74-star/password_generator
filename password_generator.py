@@ -3,6 +3,7 @@ import random
 
 #import string module 
 import string 
+
 password = ""
 length = int(input("Enter the Password length: "))
 if length < 3:
