@@ -11,7 +11,7 @@ password = ""
 length = int(input("Enter the Password length: "))
 
 #If the password length is less than three characters it is not eligible to be a password 
-#A password must contains minimum 3 characters
+#A password must contains minimum three characters
 if length < 3:
     print("Invalid Password Length : specify length more than or equal to 3")
 else:    
