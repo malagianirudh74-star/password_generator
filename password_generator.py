@@ -14,7 +14,9 @@ length = int(input("Enter the Password length: "))
 #A password must contains minimum three characters
 if length < 3:
     print("Invalid Password Length : specify length more than or equal to 3")
-else:    
+    
+else:
+    
     characters = string.ascii_uppercase + string.ascii_lowercase + string.digits + string.punctuation
     i=1
     while i<=length :
