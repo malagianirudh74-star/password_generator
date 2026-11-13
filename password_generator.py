@@ -18,6 +18,7 @@ if length < 3:
 else:
     
     #within a atring called characters include: 
+    #1. All the uppercase characters
     characters = string.ascii_uppercase + string.ascii_lowercase + string.digits + string.punctuation
     i=1
     while i<=length :
