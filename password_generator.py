@@ -20,6 +20,7 @@ else:
     #within a atring called characters include: 
     #1. All the uppercase characters (A-Z)
     #2. All the lowercase characters (a-z)
+    #3. All the 
     characters = string.ascii_uppercase + string.ascii_lowercase + string.digits + string.punctuation
     i=1
     while i<=length :
